@@ -12,7 +12,6 @@
 }
 
 /* css variables */
-
 :root {
     --text-color: #f5f5f5;
     --hover-color: #12f7ff;
@@ -87,7 +86,6 @@ nav ul li a:hover{
 }
 
 /* hero section */
-
 .hero-section{
     padding: 60px 8%;
     display: flex;
@@ -104,7 +102,8 @@ nav ul li a:hover{
 }
 .hero-section .left-section p{
     font-size: 1.1rem;
-    text-wrap: balance;
+    word-break: break-word;
+    overflow-wrap: break-word;
 }
 .btn-box{
     margin-block: 12px;
@@ -155,7 +154,6 @@ nav ul li a:hover{
     color: var(--hover-color);
 }
 
-
 .hero-section .right-section{
     max-width: 500px;
     width: 100%;
@@ -166,7 +164,6 @@ nav ul li a:hover{
 }
 
 /* about section */
-
 .about-section{
     display: flex;
     align-items: center;
@@ -178,7 +175,7 @@ nav ul li a:hover{
     padding: 80px 8%;
     padding-top: 100px;
     gap: 1rem;
-    background-color: var(--second-bg-color);;
+    background-color: var(--second-bg-color);
 }
 
 .about-section h1{
@@ -193,11 +190,11 @@ nav ul li a:hover{
 
 .about-section p{
     color: #bcbcbc;
-    text-wrap: balance;
+    word-break: break-word;
+    overflow-wrap: break-word;
 }
 
 /* skill-container */
-
 .skill-container{
     display: flex;
     align-items: center;
@@ -259,12 +256,10 @@ nav ul li a:hover{
 .line-background .javascript{
     width: 82%;
     animation: javascrpt 2s linear;
-
 }
 .line-background .react{
     width: 50%;
     animation: react 2s linear;
-
 }
 .line-background .nodejs{
     width: 50%;
@@ -316,7 +311,6 @@ nav ul li a:hover{
 }
 
 /* portfolio section */
-
 .portfolio-section{
     background: var(--second-bg-color);
     padding: 80px 8%;
@@ -392,7 +386,6 @@ nav ul li a:hover{
 }
 
 /* contact-section */
-
 .contact-section{
     padding: 80px 8%;
     padding-top: 100px;
@@ -432,7 +425,6 @@ form textarea{
 }
 
 /* footer */
-
 footer{
     background: var(--second-bg-color);
     padding: 20px 0;
@@ -444,7 +436,6 @@ footer p{
 }
 
 /* back to top btn */
-
 .bx-chevron-up{
     position: fixed;
     bottom: 30px;
@@ -468,7 +459,6 @@ footer p{
 }
 
 /* media queries */
-
 @media (max-width: 820px) {
     nav{
         padding-inline: 5%;
